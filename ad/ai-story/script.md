@@ -1,6 +1,6 @@
 # AI story ad: "Floor ki problem → CoatCraft solution" (v1)
 
-Dramatized scene with AI-generated visuals (Google Veo 3, 9:16, 8 s per shot). No real client, no real company names.
+Dramatized scene with AI-generated visuals (Gemini Omni Flash with reference images in refs/, 9:16, ~10 s per shot; built by build.py). No real client, no real company names.
 Spoken facts only from brand/facts.json. On-screen disclosure in the edit: "Dramatized scene · AI-generated visuals".
 
 ## Characters (paste this block into every prompt where they appear, word for word)
