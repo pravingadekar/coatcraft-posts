@@ -12,7 +12,7 @@ plus a Google Business Profile update once that network is connected.
 2. Today's pillar is set by the weekday in `pillars.md`. Take the first queue item not yet in `history.md`, and
    the next location cluster from `seo.md` after the last `area:` in `history.md`. Append
    `$D | <pillar> | <topic> | area: <cluster>` to `history.md`.
-3. Write `daily/$D/carousel.json` and `daily/$D/reel.json` in the shape of `daily/2026-10-31/` (scene kinds and
+3. Write `daily/$D/carousel.json` and `daily/$D/reel.json` in the shape of `daily/2026-10-30/` (scene kinds and
    fields are documented at the top of `tools/make_scenes.py`):
    - Carousel: exactly 6 scenes. 1 `hook` (question or problem, 2 `chips`, short `body` ending in a swipe cue),
      2-5 one idea each (`list` with 3 items, `grid` with 4-8 items, or `text`), 6 `cta` with a short title.
@@ -29,7 +29,7 @@ plus a Google Business Profile update once that network is connected.
      transliterated (इपॉक्सी, पीयू फ़्लोरिंग, वेयरहाउस), every number spelled as words (दो से पाँच दिन). Same facts as
      the scenes, nothing extra. The last line asks them to call/WhatsApp and says the number exactly as
      "सात सात चार पाँच आठ, आठ नौ एक एक एक", then "कोटक्राफ़्ट सॉल्यूशंस।"
-4. Write `daily/$D/captions.md` in the format of `daily/2026-10-31/captions.md`: Instagram carousel, Instagram
+4. Write `daily/$D/captions.md` in the format of `daily/2026-10-30/captions.md`: Instagram carousel, Instagram
    Reel, Facebook, YouTube Short (title under 100 characters, ending in `#shorts`), Google Business Profile
    (plain text under 1,400 characters, no hashtags). Every caption: hook, the key facts, a comment question
    (not on YouTube/GBP), and the contact block: "Call / WhatsApp: +91 77458 89111", "www.coatcraftsolutions.com",
