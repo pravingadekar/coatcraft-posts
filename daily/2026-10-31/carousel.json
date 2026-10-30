@@ -3,36 +3,57 @@
     {
       "kind": "hook",
       "title": "Naya floor *kitne din* mein ready?",
-      "chips": ["Kaam kitne din rukega?", "Kab shuru karein?"],
-      "body": "Swipe karo: har flooring system ka aam time."
+      "chips": [
+        "Kaam kitne din rukega?",
+        "Kab shuru karein?"
+      ],
+      "body": "Swipe karo: har flooring system ka aam time.",
+      "photo": "stock/apply-selfleveling-workers.jpg"
     },
     {
       "kind": "list",
       "tag": "JALDI READY",
       "title": "*1-5 din* mein",
-      "items": ["Roller Coating: 1-2 din", "Densi Polished Concrete: 2-4 din", "Industrial Epoxy: 2-5 din"]
+      "items": [
+        "Roller Coating: 1-2 din",
+        "Densi Polished Concrete: 2-4 din",
+        "Industrial Epoxy: 2-5 din"
+      ],
+      "photo": "stock/roller-floor-worker.jpg"
     },
     {
       "kind": "list",
       "tag": "HEAVY DUTY",
       "title": "Food, pharma, *cold storage*",
-      "items": ["PU Flooring: 3-6 din", "ESD Flooring: 3-5 din", "PU Concrete: 4-7 din"]
+      "items": [
+        "PU Flooring: 3-6 din",
+        "ESD Flooring: 3-5 din",
+        "PU Concrete: 4-7 din"
+      ],
+      "photo": "stock/food-plant.jpg"
     },
     {
       "kind": "list",
       "tag": "DECORATIVE",
       "title": "Ghar aur *showroom*",
-      "items": ["Metallic Epoxy: 3-4 din", "Italian Marble Finish: 3-4 din", "3D Epoxy: 3-5 din"]
+      "items": [
+        "Metallic Epoxy: 3-4 din",
+        "Italian Marble Finish: 3-4 din",
+        "3D Epoxy: 3-5 din"
+      ],
+      "photo": "stock/showroom-car-reflection.jpg"
     },
     {
       "kind": "text",
       "tag": "DHYAN DEIN",
       "title": "Exact time *area* par depend",
-      "body": "Ye aam range hain. Asli time area, floor ki abhi ki halat aur chune gaye system ke hisaab se tay hota hai."
+      "body": "Ye aam range hain. Asli time area, floor ki abhi ki halat aur chune gaye system ke hisaab se tay hota hai.",
+      "photo": "stock/power-trowel-worker.jpg"
     },
     {
       "kind": "cta",
-      "title": "Apne floor ka *time aur quote* jaano"
+      "title": "Apne floor ka *time aur quote* jaano",
+      "photo": "stock/glossy-warehouse-1.jpg"
     }
   ]
 }

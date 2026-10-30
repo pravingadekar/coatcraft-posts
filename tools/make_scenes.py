@@ -8,14 +8,16 @@ Spec (e.g. ad/ad.json, daily/<date>/content.json):
     {"kind": "grid",  "tag": "SERVICES", "title": "...", "items": ["...", "..."]},
     {"kind": "list",  "tag": "...", "title": "...", "items": ["..."], "note": "*small print"},
     {"kind": "text",  "tag": "...", "title": "...", "body": "..."},
-    {"kind": "cta",   "title": "..."}
+    {"kind": "cta",   "title": "..."},
+    {"kind": "festival", "tag": "DIWALI", "title": "Shubh *Deepavali*", "body": "wish line"}
   ],
   "narration": ["one voiceover line per scene", ...]      (optional; needs ELEVENLABS_API_KEY)
 }
-Words wrapped in *stars* in a title are drawn in brand orange. "photo" (optional) puts a darkened site photo
-behind any scene. Facts and contact details come from brand/facts.json.
+Words wrapped in *stars* in a title are drawn in brand orange. "photo" (optional) puts a darkened photo
+(photos/ = our sites, stock/ = illustrative) behind any scene. Facts and contact details come from brand/facts.json.
 
     python tools/make_scenes.py SPEC.json OUT_DIR [--carousel] [--no-voice] [--secs 4.5]
+    python tools/make_scenes.py SPEC.json OUT_DIR --single NAME     one 1080x1350 image (scene 1) as NAME.png
 """
 import json
 import os
@@ -89,7 +91,8 @@ def background(w, h, photo=None):
         left, top = (img.width - w) // 2, (img.height - h) // 2
         img = img.crop((left, top, left + w, top + h))
         shade = Image.new("RGB", (w, h), NAVY_DEEP)
-        mask = Image.linear_gradient("L").resize((w, h)).point(lambda v: 110 + v * 120 // 255)
+        # dark behind the text at the top, the photo shows through more towards the bottom
+        mask = Image.linear_gradient("L").resize((w, h)).point(lambda v: 215 - v * 85 // 255)
         return Image.composite(shade, img, mask)
 
     img = Image.new("RGB", (w, h))
@@ -146,7 +149,7 @@ def render(scene, w, h, index, total):
         d.rectangle([0, 0, w, 10], fill=ORANGE)
 
     y = int(h * (0.24 if tall else 0.2))
-    if scene.get("tag"):
+    if scene.get("tag") and kind != "festival":
         _, ph = pill(d, pad, y, scene["tag"], font("Bold", 30), ORANGE, WHITE)
         y += ph + 34
 
@@ -169,6 +172,32 @@ def render(scene, w, h, index, total):
                 tw = d.textlength(line, font=f)
                 d.text(((w - tw) / 2, y + 20), line, font=f, fill=WHITE)
                 y += 54
+        return img
+
+    if kind == "festival":
+        y = int(h * 0.3)
+        if scene.get("tag"):
+            tf = font("Bold", 34)
+            tw = d.textlength(scene["tag"], font=tf) + 52
+            pill(d, (w - tw) / 2, y, scene["tag"], tf, ORANGE, WHITE)
+            y += 110
+        f, lines = fit(d, scene.get("title", ""), "ExtraBold", 120 if tall else 104, inner, 3)
+        lh = f.getmetrics()[0] + f.getmetrics()[1] + 4
+        on = False
+        for line in lines:
+            on = draw_marked(d, ((w - d.textlength(line.replace("*", ""), font=f)) / 2, y), line, f, WHITE, ORANGE, on)
+            y += lh
+        d.rectangle([w / 2 - 75, y + 18, w / 2 + 75, y + 28], fill=ORANGE)
+        y += 80
+        bf = font("Medium", 46 if tall else 40)
+        for line in wrap(d, scene.get("body", ""), bf, inner):
+            d.text(((w - d.textlength(line, font=bf)) / 2, y), line, font=bf, fill=WHITE)
+            y += 64
+        sign = "- Team CoatCraft Solutions"
+        sf = font("SemiBold", 40 if tall else 36)
+        d.text(((w - d.textlength(sign, font=sf)) / 2, y + 40), sign, font=sf, fill=ORANGE)
+        d.text((pad, h - (110 if tall else 80)), f"{FACTS['phone']}  |  {FACTS['website']}", font=font("Medium", 30),
+               fill=MUTED)
         return img
 
     title_size = 104 if tall else 84
@@ -273,6 +302,12 @@ def main():
     if narration and len(narration) != len(scenes):
         sys.exit(f"narration has {len(narration)} lines for {len(scenes)} scenes")
     os.makedirs(out, exist_ok=True)
+
+    if "--single" in sys.argv:
+        name = sys.argv[sys.argv.index("--single") + 1]
+        render(scenes[0], 1080, 1350, 0, 1).save(os.path.join(out, f"{name}.png"), optimize=True)
+        print("done image", os.path.join(out, f"{name}.png"))
+        return
 
     if carousel:
         for i, s in enumerate(scenes):

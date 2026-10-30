@@ -17,6 +17,12 @@ plus a Google Business Profile update once that network is connected.
    - Carousel: exactly 6 scenes. 1 `hook` (question or problem, 2 `chips`, short `body` ending in a swipe cue),
      2-5 one idea each (`list` with 3 items, `grid` with 4-8 items, or `text`), 6 `cta` with a short title.
    - Reel: exactly 5 scenes (`hook`, three content scenes, `cta`) and `"narration"` with exactly 5 lines.
+   - Visuals: give every scene a `photo` that shows the business: people applying coating, rollers, glossy
+     industrial floors, car parks, showrooms, cleanrooms, marble/metallic textures, matching that scene's topic.
+     Prefer real photos from `photos/` (see `photos/notes.md`) whenever one fits; otherwise pick from
+     `stock/README.md` by tags. Don't reuse the same photo twice in one post, and avoid the photos used in the
+     last 3 days of `daily/` when others fit. Stock photos are illustrative only: never describe them as our
+     site, client or result.
    - Titles under ~40 characters; mark 1-3 key words with `*stars*` (orange). List items under ~35 characters.
      Slide text: plain ASCII only, no emoji and no arrows (Poppins has no glyphs for them).
    - Narration: Devanagari, conversational, 1-2 short sentences per scene (~15-30 words), English trade words
@@ -43,6 +49,9 @@ plus a Google Business Profile update once that network is connected.
    running into the footer, orange words correct. Fix the JSON and re-render until clean.
    Commit (`Daily $D: <topic>`), `git pull --rebase origin main`, push to `main` (on a rejected push, pull --rebase
    and retry up to 3 times).
+   **Festival day:** if `$D` is in `festivals.md`, also write `daily/$D/festival.json` (one `festival` scene, as
+   festivals.md describes) and a `## Festival` section in captions.md (Instagram/Facebook caption + GBP text), and
+   render it with `python3 tools/make_scenes.py daily/$D/festival.json daily/$D --single festival` before the commit.
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/coatcraft-posts/main/daily/$D/slide1.png` and
    `.../reel.mp4` return HTTP 200 (retry for up to 2 minutes after the push).
 7. Metricool: use ONLY the "Metricool CoatCraft" connector, brand/blogId `7752681` (label "coatcraftsolutions",
@@ -51,6 +60,7 @@ plus a Google Business Profile update once that network is connected.
    autoPublish true, at these times on `$D` (Metricool best-time data for this brand, Oct 2026):
    | Time  | Post |
    |-------|------|
+   | 09:00 | Festival days only: Instagram `POST` + Facebook `POST` with festival.png and the festival caption, and GBP `publication` with the festival GBP text |
    | 10:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Instagram Reel caption |
    | 10:00 | Facebook `REEL` with reel.mp4, Facebook caption |
    | 11:00 | Google Business Profile (`gmb`, `gmbData.type: "publication"`), GBP text. Only if getBrandSettings shows `gbpData` in the brand's `networksData` (connected 2026-10-30); otherwise skip it |

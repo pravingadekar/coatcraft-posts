@@ -5,6 +5,7 @@ the first item in its queue that is not yet in `history.md`. When a queue is use
 with a fresh angle (different hook and examples).
 
 Keys refer to `brand/facts.json` (`services.<key>` / `industries.<key>`).
+Festival greetings come on top of these on the dates in `festivals.md`.
 
 ## Mon: Service spotlight
 One service: what it is, benefits, where it is used, thickness, expected life, install time, warranty.
