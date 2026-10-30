@@ -53,7 +53,7 @@ plus a Google Business Profile update once that network is connected.
    |-------|------|
    | 10:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Instagram Reel caption |
    | 10:00 | Facebook `REEL` with reel.mp4, Facebook caption |
-   | 11:00 | Google Business Profile (`gmb`, `gmbData.type: "publication"`), GBP text. Only if getBrandSettings lists a Google Business network for the brand; otherwise skip it |
+   | 11:00 | Google Business Profile (`gmb`, `gmbData.type: "publication"`), GBP text. Only if getBrandSettings shows `gbpData` in the brand's `networksData` (connected 2026-10-30); otherwise skip it |
    | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
    | 16:00 | YouTube `short` with reel.mp4: title, `tags` from captions.md, `madeForKids: false`, `category: SCIENCE_TECHNOLOGY`, `privacy: public` |
    | 18:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
