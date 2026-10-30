@@ -1,20 +1,22 @@
 """ElevenLabs text-to-speech: one MP3 per line of narration.
 
-Needs ELEVENLABS_API_KEY and COATCRAFT_VOICE_ID (a male Hindi voice) in the environment; never hard-code the key.
+Needs ELEVENLABS_API_KEY in the environment; never hard-code the key. COATCRAFT_VOICE_ID overrides the default
+male voice (Rudra).
 """
 import json
 import os
 import urllib.request
 
 MODEL = "eleven_multilingual_v2"
+DEFAULT_VOICE = "gMRjEAcWCvjoyqIfZqlp"  # Rudra; a voice ID is not a secret
 
 
 def available():
-    return bool(os.environ.get("ELEVENLABS_API_KEY") and os.environ.get("COATCRAFT_VOICE_ID"))
+    return bool(os.environ.get("ELEVENLABS_API_KEY"))
 
 
 def speak(text, out_path):
-    voice = os.environ["COATCRAFT_VOICE_ID"]
+    voice = os.environ.get("COATCRAFT_VOICE_ID") or DEFAULT_VOICE
     body = json.dumps({
         "text": text,
         "model_id": MODEL,
