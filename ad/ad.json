@@ -1,0 +1,48 @@
+{
+  "scenes": [
+    {
+      "kind": "hook",
+      "title": "Factory floor mein *crack*, dust aur *oil ke daag*?",
+      "chips": ["Dhool udti hai", "Crack aur gaddhe", "Oil / chemical ke daag", "Slippery floor"],
+      "body": "Har din production aur safety, dono ka nuksaan."
+    },
+    {
+      "kind": "brand",
+      "body": "Industrial & Decorative Flooring Experts"
+    },
+    {
+      "kind": "grid",
+      "tag": "HUM KYA KARTE HAIN",
+      "title": "Ek team, *har floor* ka solution",
+      "items": ["Industrial Epoxy", "PU Flooring", "PU Concrete", "ESD Flooring", "Chemical Resistant",
+                "Car Parking Flooring", "Metallic & 3D Epoxy", "Epoxy Waterproofing"]
+    },
+    {
+      "kind": "grid",
+      "tag": "INDUSTRIES",
+      "title": "Har industry ke liye *sahi floor*",
+      "items": ["Warehouse", "Manufacturing", "Pharma", "Food Industry", "Automobile", "Hospital", "Parking",
+                "Residential"]
+    },
+    {
+      "kind": "list",
+      "tag": "KYUN COATCRAFT?",
+      "title": "Ek baar lagao, *saalon* chalao",
+      "items": ["Seamless floor, aasaan safai", "8-15 saal tak life*", "Up to 2 saal warranty*",
+                "Pune se Pan-India service"],
+      "note": "*Epoxy, PU aur PU Concrete systems; sahi maintenance ke saath"
+    },
+    {
+      "kind": "cta",
+      "title": "Apne floor ka *quote* aaj hi lo"
+    }
+  ],
+  "narration": [
+    "क्या आपकी फ़ैक्टरी के फ़्लोर में क्रैक, धूल और ऑयल के दाग़ हैं? इससे रोज़ प्रोडक्शन और सेफ़्टी, दोनों का नुक़सान होता है।",
+    "पेश है कोटक्राफ़्ट सॉल्यूशंस। स्ट्रॉन्ग फ़्लोर्स, स्मार्ट फ़िनिशेस।",
+    "इंडस्ट्रियल इपॉक्सी, पीयू फ़्लोरिंग, पीयू कंक्रीट, ई एस डी, केमिकल रेज़िस्टेंट और मेटैलिक फ़्लोरिंग, सब एक ही टीम से।",
+    "वेयरहाउस, फ़ार्मा, फ़ूड, ऑटोमोबाइल, हॉस्पिटल, पार्किंग, या आपका घर, हर जगह के लिए सही फ़्लोरिंग सिस्टम।",
+    "सीमलेस फ़्लोर, आसान सफ़ाई, आठ से पंद्रह साल तक की लाइफ़, और दो साल तक की वारंटी।",
+    "आज ही कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस, पुणे से पूरे इंडिया में।"
+  ]
+}
