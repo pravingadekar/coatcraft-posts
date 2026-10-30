@@ -18,7 +18,7 @@ import make_scenes  # noqa: E402
 from make_reel import FFMPEG, audio_seconds  # noqa: E402
 
 TAKES = os.path.join(HERE, "takes")
-SHOTS = ["shot1_c", "shot2_a", "shot3_a", "MONTAGE", "shot5_a", "shot6_a", "END"]
+SHOTS = ["shot1_c", "shot2_a", "shot3_a", "MONTAGE", "shot5_b", "shot6_b", "END"]   # 5b/6b: client thanks + CTA
 MONTAGE = [("stock/power-trowel-worker.jpg", "Surface preparation"),
            ("stock/apply-selfleveling-workers.jpg", "Epoxy / PU coating"),
            ("stock/roller-floor-worker.jpg", "Roller finish"),
@@ -32,16 +32,12 @@ def font(weight, size):
 
 
 def overlay_png(path, lower_third=False):
-    """Transparent 1080x1920 layer: logo top-left, disclosure line at the bottom, optional lower third."""
+    """Transparent 1080x1920 layer: logo top-left, optional lower third. The AI disclosure is the platform's AI label
+    (set when scheduling) plus a caption line, not on-screen text."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     d.rounded_rectangle([40, 50, 470, 160], radius=55, fill=(8, 20, 40, 170))
     make_scenes.brand_mark(img, 60, 60, 88)
-    note = "Dramatized scene  |  AI-generated visuals"
-    f = font("Medium", 26)
-    tw = d.textlength(note, font=f)
-    d.rounded_rectangle([(W - tw) / 2 - 18, H - 92, (W + tw) / 2 + 18, H - 46], radius=20, fill=(0, 0, 0, 120))
-    d.text(((W - tw) / 2, H - 87), note, font=f, fill=(235, 235, 235, 255))
     if lower_third:
         d.rectangle([0, 1380, 760, 1530], fill=(8, 20, 40, 215))
         d.rectangle([0, 1380, 14, 1530], fill=make_scenes.ORANGE)
