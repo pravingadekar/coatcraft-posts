@@ -1,0 +1,39 @@
+{
+  "scenes": [
+    {
+      "kind": "hook",
+      "title": "Naya floor *kitne din* mein ready?",
+      "chips": ["Kaam kitne din rukega?", "Kab shuru karein?"],
+      "body": "Har flooring system ka aam time."
+    },
+    {
+      "kind": "list",
+      "tag": "JALDI READY",
+      "title": "*1-5 din* mein",
+      "items": ["Roller Coating: 1-2 din", "Densi Polished Concrete: 2-4 din", "Industrial Epoxy: 2-5 din"]
+    },
+    {
+      "kind": "list",
+      "tag": "HEAVY DUTY",
+      "title": "Food, pharma, *cold storage*",
+      "items": ["PU Flooring: 3-6 din", "ESD Flooring: 3-5 din", "PU Concrete: 4-7 din"]
+    },
+    {
+      "kind": "list",
+      "tag": "DECORATIVE",
+      "title": "Ghar aur *showroom*",
+      "items": ["Metallic Epoxy: 3-4 din", "Italian Marble Finish: 3-4 din", "3D Epoxy: 3-5 din"]
+    },
+    {
+      "kind": "cta",
+      "title": "Apne floor ka *time aur quote* jaano"
+    }
+  ],
+  "narration": [
+    "नया फ़्लोर लगवाना है, पर काम कितने दिन रुकेगा? चलिए हर फ़्लोरिंग सिस्टम का टाइम देखते हैं।",
+    "रोलर कोटिंग एक से दो दिन में, डेंसी पॉलिश्ड कंक्रीट दो से चार दिन में, और इंडस्ट्रियल इपॉक्सी दो से पाँच दिन में तैयार।",
+    "फ़ूड, फ़ार्मा और कोल्ड स्टोरेज के लिए पीयू फ़्लोरिंग तीन से छह दिन, ई एस डी फ़्लोरिंग तीन से पाँच दिन, और पीयू कंक्रीट चार से सात दिन।",
+    "घर और शोरूम के लिए मेटैलिक इपॉक्सी और इटैलियन मार्बल फ़िनिश तीन से चार दिन, और थ्री डी इपॉक्सी तीन से पाँच दिन।",
+    "एग्ज़ैक्ट टाइम एरिया पर डिपेंड करता है। अपने फ़्लोर का टाइम और कोटेशन जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

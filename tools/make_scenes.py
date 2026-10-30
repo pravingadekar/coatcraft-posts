@@ -67,15 +67,18 @@ def fit(draw, text, weight, size, width, max_lines):
     return f, lines
 
 
-def draw_marked(draw, xy, line, fnt, base, mark):
-    """Draw a line where *starred* words are in the accent colour."""
+def draw_marked(draw, xy, line, fnt, base, mark, on=False):
+    """Draw a line where *starred* words are in the accent colour. `on` carries a *phrase* that wraps across lines;
+    returns the state for the next line."""
     x, y = xy
-    on = False
-    for part in line.split("*"):
+    parts = line.split("*")
+    for i, part in enumerate(parts):
         if part:
             draw.text((x, y), part, font=fnt, fill=mark if on else base)
             x += draw.textlength(part, font=fnt)
-        on = not on
+        if i < len(parts) - 1:
+            on = not on
+    return on
 
 
 def background(w, h, photo=None):
@@ -173,8 +176,9 @@ def render(scene, w, h, index, total):
         title_size = 86 if tall else 72
     f, lines = fit(d, scene.get("title", ""), "ExtraBold", title_size, inner, 4)
     lh = f.getmetrics()[0] + f.getmetrics()[1] + 4
+    on = False
     for line in lines:
-        draw_marked(d, (pad, y), line, f, WHITE, ORANGE)
+        on = draw_marked(d, (pad, y), line, f, WHITE, ORANGE, on)
         y += lh
     d.rectangle([pad, y + 18, pad + 150, y + 28], fill=ORANGE)
     y += 80
