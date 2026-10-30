@@ -9,8 +9,9 @@ plus a Google Business Profile update once that network is connected.
 ## Steps (run once per day, ~8:30 AM IST, before the first slot at 10:00 AM)
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `daily/$D/reel.mp4` already exists, skip to step 6.
-2. Today's pillar is set by the weekday in `pillars.md`. Take the first queue item not yet in `history.md` and
-   append `$D | <pillar> | <topic>` to `history.md`.
+2. Today's pillar is set by the weekday in `pillars.md`. Take the first queue item not yet in `history.md`, and
+   the next location cluster from `seo.md` after the last `area:` in `history.md`. Append
+   `$D | <pillar> | <topic> | area: <cluster>` to `history.md`.
 3. Write `daily/$D/carousel.json` and `daily/$D/reel.json` in the shape of `daily/2026-10-31/` (scene kinds and
    fields are documented at the top of `tools/make_scenes.py`):
    - Carousel: exactly 6 scenes. 1 `hook` (question or problem, 2 `chips`, short `body` ending in a swipe cue),
@@ -27,6 +28,9 @@ plus a Google Business Profile update once that network is connected.
    (plain text under 1,400 characters, no hashtags). Every caption: hook, the key facts, a comment question
    (not on YouTube/GBP), and the contact block: "Call / WhatsApp: +91 77458 89111", "www.coatcraftsolutions.com",
    "Pune | Pan-India service". 6-14 relevant hashtags on Instagram, ~5 on Facebook and YouTube.
+   Follow `seo.md` for every caption: keyword-led first line, the day's location cluster in a service-area line,
+   the YouTube title formula, description and `tags`, and the longer GBP text. The CTA slide/scene and the
+   narration stay as they are (no area names in the voiceover).
 5. Render and check:
    ```
    python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
@@ -51,7 +55,7 @@ plus a Google Business Profile update once that network is connected.
    | 10:00 | Facebook `REEL` with reel.mp4, Facebook caption |
    | 11:00 | Google Business Profile (`gmb`, `gmbData.type: "publication"`), GBP text. Only if getBrandSettings lists a Google Business network for the brand; otherwise skip it |
    | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
-   | 16:00 | YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: SCIENCE_TECHNOLOGY`, `privacy: public` |
+   | 16:00 | YouTube `short` with reel.mp4: title, `tags` from captions.md, `madeForKids: false`, `category: SCIENCE_TECHNOLOGY`, `privacy: public` |
    | 18:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
    If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
    If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for Metricool
