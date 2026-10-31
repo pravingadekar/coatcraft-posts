@@ -54,9 +54,11 @@ plus a Google Business Profile update once that network is connected.
    render it with `python3 tools/make_scenes.py daily/$D/festival.json daily/$D --single festival` before the commit.
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/coatcraft-posts/main/daily/$D/slide1.png` and
    `.../reel.mp4` return HTTP 200 (retry for up to 2 minutes after the push).
-7. Metricool: use ONLY the "Metricool CoatCraft" connector, brand/blogId `7752681` (label "coatcraftsolutions",
-   owner coatcraftsolutions@gmail.com), timezone `Asia/Calcutta`. If getBrandSettings shows any other brand, do
-   not post there. Call getScheduledPosts for $D first and do not create a post that already exists. Then create,
+7. Metricool: brand/blogId `7773083` ONLY (label "CoatCraft Solutions", in the paid pravingadekar05 Metricool
+   account since 2026-10-31), timezone `Asia/Calcutta`. That account also holds "Trade With Captain Pravin"
+   (7732528), a different business: never post, read-modify or schedule anything for any brand other than 7773083.
+   The old free-account brand 7752681 is retired; do not use it. Call getScheduledPosts for brandId 7773083 and $D
+   first and do not create a post that already exists. Then create,
    autoPublish true, at these times on `$D` (Metricool best-time data for this brand, Oct 2026):
    | Time  | Post |
    |-------|------|
