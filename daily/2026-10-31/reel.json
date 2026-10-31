@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Floor kitna *mota* hona chahiye?", "chips": ["Coating kitni mothi?", "Kaunsa system?"], "body": "Har system ki aam thickness.", "photo": "stock/floor-prep-worker.jpg"},
+    {"kind": "list", "tag": "EPOXY", "title": "Epoxy: *2-5mm* tak", "items": ["Industrial Epoxy: 2-5mm", "ESD Flooring: 2-4mm", "Roller Coating: 150-300 micron"], "photo": "stock/factory-aisle-lines.jpg"},
+    {"kind": "list", "tag": "HEAVY DUTY", "title": "PU mein *3-9mm* tak", "items": ["PU Flooring: 3-6mm", "Chemical Resistant: 3-6mm", "PU Concrete: 6-9mm"], "photo": "stock/forklift-indoor.jpg"},
+    {"kind": "list", "tag": "DECORATIVE", "title": "Ghar aur *showroom*", "items": ["Metallic Epoxy: 2-3mm", "Italian Marble Finish: 2-3mm", "3D Epoxy: 2-3mm"], "photo": "stock/roller-tray-closeup.jpg"},
+    {"kind": "cta", "title": "Apne floor ki *sahi thickness* jaano", "photo": "stock/glossy-warehouse-2.jpg"}
+  ],
+  "narration": [
+    "फ़्लोर कितना मोटा होना चाहिए? चलिए हर फ़्लोरिंग सिस्टम की आम थिकनेस देखते हैं।",
+    "इंडस्ट्रियल इपॉक्सी दो से पाँच मिलीमीटर, ई एस डी फ़्लोरिंग दो से चार मिलीमीटर, और रोलर कोटिंग सिर्फ़ डेढ़ सौ से तीन सौ माइक्रॉन।",
+    "पीयू फ़्लोरिंग और केमिकल रेज़िस्टेंट फ़्लोरिंग तीन से छह मिलीमीटर, और पीयू कंक्रीट छह से नौ मिलीमीटर।",
+    "घर और शोरूम के लिए मेटैलिक इपॉक्सी, इटैलियन मार्बल फ़िनिश और थ्री डी इपॉक्सी दो से तीन मिलीमीटर।",
+    "सही थिकनेस फ़्लोर की हालत और ट्रैफ़िक पर डिपेंड करती है। जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

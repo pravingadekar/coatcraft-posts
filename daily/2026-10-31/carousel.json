@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Kaunsa floor *kitna mota* hota hai?", "chips": ["Coating kitni mothi?", "Kaunsa system kitna?"], "body": "Swipe karo: har flooring system ki aam thickness.", "photo": "stock/yellow-glossy-floor.jpg"},
+    {"kind": "list", "tag": "PATLA SYSTEM", "title": "*Patli* coating, halka kaam", "items": ["Roller Coating: 150-300 micron", "Densi Polished: existing slab", "Metallic Epoxy: 2-3mm"], "photo": "stock/roller-tray-closeup.jpg"},
+    {"kind": "list", "tag": "EPOXY", "title": "Factory ke liye *2-5mm*", "items": ["Industrial Epoxy: 2-5mm", "ESD Flooring: 2-4mm", "Car Parking: 2-4mm"], "photo": "stock/factory-aisle-lines.jpg"},
+    {"kind": "list", "tag": "HEAVY DUTY", "title": "PU mein *3-9mm* tak", "items": ["PU Flooring: 3-6mm", "Chemical Resistant: 3-6mm", "PU Concrete: 6-9mm"], "photo": "stock/forklift-indoor.jpg"},
+    {"kind": "text", "tag": "DHYAN DEIN", "title": "Thickness *kaam* ke hisaab se", "body": "Ye aam range hain. Sahi thickness floor ki halat, traffic aur chune gaye system ke hisaab se tay hoti hai.", "photo": "stock/floor-mortar-worker.jpg"},
+    {"kind": "cta", "title": "Apne floor ki *sahi thickness* jaano", "photo": "stock/glossy-warehouse-2.jpg"}
+  ]
+}
