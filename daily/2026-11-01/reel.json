@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Kaunsa floor *kis jagah* ke liye?", "chips": ["Factory ya showroom?", "Epoxy ya PU?"], "body": "Jagah ke hisaab se sahi system.", "photo": "stock/garage-dark-glossy.jpg"},
+    {"kind": "list", "tag": "FACTORY & WAREHOUSE", "title": "Bhaari kaam, *strong* floor", "items": ["Warehouse: Industrial Epoxy", "Forklift traffic: PU Concrete", "Halka storage: Roller Coating"], "photo": "stock/forklift-yard.jpg"},
+    {"kind": "list", "tag": "HYGIENE & STATIC", "title": "Food, pharma, *electronics*", "items": ["Food plant: PU Flooring", "Pharma: ESD ya PU Flooring", "Electronics: ESD Flooring"], "photo": "stock/cleanroom-corridor.jpg"},
+    {"kind": "list", "tag": "PARKING & DECORATIVE", "title": "Parking, showroom, *ghar*", "items": ["Car park: Car Parking Flooring", "Showroom: Metallic, Marble Finish", "Ghar: Metallic ya 3D Epoxy"], "photo": "stock/showroom-white.jpg"},
+    {"kind": "cta", "title": "Apni jagah ka *sahi floor* chunein", "photo": "stock/polished-concrete-room.jpg"}
+  ],
+  "narration": [
+    "कौनसा फ़्लोर किस जगह के लिए सही है? चलिए जगह के हिसाब से देखते हैं।",
+    "वेयरहाउस के लिए इंडस्ट्रियल इपॉक्सी, फ़ोर्कलिफ़्ट ट्रैफ़िक के लिए पीयू कंक्रीट, और हल्के स्टोरेज के लिए रोलर कोटिंग।",
+    "फ़ूड प्लांट के लिए पीयू फ़्लोरिंग, फ़ार्मा के लिए ई एस डी या पीयू फ़्लोरिंग, और इलेक्ट्रॉनिक्स के लिए ई एस डी फ़्लोरिंग।",
+    "कार पार्क के लिए कार पार्किंग फ़्लोरिंग, शोरूम के लिए मेटैलिक या मार्बल फ़िनिश, और घर के लिए मेटैलिक या थ्री डी इपॉक्सी।",
+    "अपनी जगह का सही फ़्लोर जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

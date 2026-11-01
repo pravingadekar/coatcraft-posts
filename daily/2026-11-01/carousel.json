@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Kaunsa floor *kis jagah* lagayein?", "chips": ["Factory ya showroom?", "Epoxy ya PU?"], "body": "Swipe karo: jagah ke hisaab se sahi flooring system.", "photo": "stock/warehouse-aisle-people.jpg"},
+    {"kind": "list", "tag": "FACTORY & WAREHOUSE", "title": "Bhaari kaam, *strong* floor", "items": ["Warehouse: Industrial Epoxy", "Forklift traffic: PU Concrete", "Halka storage: Roller Coating"], "photo": "stock/factory-marked-floor.jpg"},
+    {"kind": "list", "tag": "FOOD & PHARMA", "title": "Hygiene wali *jagah*", "items": ["Food plant: PU Flooring", "Pharma: ESD ya PU Flooring", "Hospital: PU Flooring"], "photo": "stock/food-factory.jpg"},
+    {"kind": "list", "tag": "SPECIAL ZONES", "title": "Static, chemical, *thand*", "items": ["Electronics: ESD Flooring", "Chemical plant: Chemical Resistant", "Cold storage: PU Concrete"], "photo": "stock/cleanroom.jpg"},
+    {"kind": "list", "tag": "PARKING & DECORATIVE", "title": "Parking, showroom, *ghar*", "items": ["Car park: Car Parking Flooring", "Showroom: Metallic, Marble Finish", "Ghar: Metallic ya 3D Epoxy"], "photo": "stock/parking-shiny.jpg"},
+    {"kind": "cta", "title": "Apni jagah ka *sahi floor* chunein", "photo": "stock/garage-glossy.jpg"}
+  ]
+}
