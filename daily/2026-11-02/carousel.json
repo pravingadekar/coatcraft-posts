@@ -1,0 +1,8 @@
+{"scenes":[
+{"kind":"hook","title":"Factory floor mein *toot-phoot*?","chips":["Forklift ka load?","Tel aur chemical?"],"body":"Swipe karo: Industrial Epoxy ki poori jaankari.","photo":"stock/glossy-warehouse-2.jpg"},
+{"kind":"grid","tag":"FAYDE","title":"Industrial Epoxy ke *fayde*","items":["Abrasion resistant","Impact resistant","Chemical resistant","Seamless floor","Safai mein aasaan","High compressive strength"],"photo":"stock/factory-aisle-lines.jpg"},
+{"kind":"list","tag":"KAHAN LAGTA HAI","title":"Factory se *warehouse* tak","items":["Factories aur warehouses","Automobile plants","Manufacturing units"],"photo":"stock/forklift-indoor.jpg"},
+{"kind":"list","tag":"SPECS","title":"Thickness, life, *time*","items":["Thickness: 2mm se 5mm","Life: 8-10 saal tak*","Install: 2-5 din, area par"],"note":"*sahi maintenance ke saath","photo":"stock/roller-tray-grey.jpg"},
+{"kind":"text","tag":"CARE","title":"Maintenance *simple* hai","body":"Routine sweeping aur mopping karein, harsh acid se bachein. Warranty up to 2 saal*. *sahi maintenance ke saath","photo":"stock/floor-prep-worker.jpg"},
+{"kind":"cta","title":"Apne floor ka *quote* jaano","photo":"stock/parking-glossy-red.jpg"}
+]}
