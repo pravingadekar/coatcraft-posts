@@ -4,3 +4,4 @@
 2026-10-31 | Sat Process & FAQ | Kaunsa floor kitna mota? | area: Ahilyanagar
 2026-11-01 | Sun Brand day | Kaun sa floor kis jagah? (industry to service) | area: Nashik
 2026-11-02 | Mon Service spotlight | Industrial Epoxy | area: Chhatrapati Sambhajinagar
+2026-11-03 | Tue Industry solution | warehouse | area: Mumbai / Thane / Navi Mumbai

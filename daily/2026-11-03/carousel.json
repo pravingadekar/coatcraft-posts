@@ -1,0 +1,8 @@
+{"scenes":[
+{"kind":"hook","title":"Warehouse floor par *forklift* ka dabaav?","chips":["Racking point load?","Roz ki heavy traffic?"],"body":"Swipe karo: warehouse ke liye sahi floor system.","photo":"stock/forklift-yard.jpg"},
+{"kind":"text","tag":"PROBLEM","title":"Warehouse floor ki *chunauti*","body":"Constant heavy-load movement aur racking point loads. Aisa floor chahiye jo durable aur forklift-resistant ho.","photo":"stock/warehouse-aisle-people.jpg"},
+{"kind":"list","tag":"OPTION 1","title":"*Industrial Epoxy*","items":["Abrasion aur impact resistant","Seamless, safai mein aasaan","Thickness: 2mm se 5mm"],"photo":"stock/glossy-warehouse-2.jpg"},
+{"kind":"list","tag":"OPTION 2","title":"*PU Concrete* for forklift","items":["Heavy impact aur thermal shock","Thickness: 6mm se 9mm","Life: 12-15 saal tak*"],"note":"*sahi maintenance ke saath","photo":"stock/forklift-indoor.jpg"},
+{"kind":"list","tag":"TIME AUR WARRANTY","title":"Install *time* aur warranty","items":["Epoxy: 2-5 din, area par","PU Concrete: 4-7 din","Warranty: up to 2 saal*"],"note":"*sahi maintenance ke saath","photo":"stock/apply-selfleveling-workers.jpg"},
+{"kind":"cta","title":"Warehouse floor ka *quote* jaano","photo":"stock/glossy-warehouse-1.jpg"}
+]}
