@@ -1,0 +1,66 @@
+{
+  "scenes": [
+    {
+      "kind": "hook",
+      "title": "Epoxy ya PU: *kaunsa* floor lagwayein?",
+      "chips": [
+        "Factory ke liye kya sahi?",
+        "Dono mein farak kya?"
+      ],
+      "body": "Swipe karo: dono ka seedha comparison.",
+      "photo": "stock/apply-selfleveling-workers.jpg"
+    },
+    {
+      "kind": "list",
+      "tag": "INDUSTRIAL EPOXY",
+      "title": "Heavy *kaam* ke liye",
+      "items": [
+        "Thickness: 2mm se 5mm",
+        "Install: 2-5 din",
+        "Life: 8-10 saal tak*"
+      ],
+      "note": "*sahi maintenance ke saath",
+      "photo": "stock/factory-aisle-lines.jpg"
+    },
+    {
+      "kind": "list",
+      "tag": "PU FLOORING",
+      "title": "Hygiene aur *thermal shock*",
+      "items": [
+        "Thickness: 3mm se 6mm",
+        "Install: 3-6 din",
+        "Life: 10-12 saal tak*"
+      ],
+      "note": "*sahi maintenance ke saath",
+      "photo": "stock/food-plant.jpg"
+    },
+    {
+      "kind": "grid",
+      "tag": "SEEDHA FARAK",
+      "title": "Kaun *kahan* behtar",
+      "items": [
+        "Epoxy: abrasion, impact",
+        "Epoxy: chemical resistance",
+        "Epoxy: factory, warehouse",
+        "PU: steam cleaning safe",
+        "PU: thermal shock",
+        "PU: kam brittle",
+        "PU: food, pharma",
+        "PU: cold storage"
+      ],
+      "photo": "stock/glossy-warehouse-2.jpg"
+    },
+    {
+      "kind": "text",
+      "tag": "DHYAN DEIN",
+      "title": "Choice *kaam* se tay hoti hai",
+      "body": "Dono seamless aur saaf karne mein aasaan hain. Dono par up to 2 saal warranty, sahi maintenance ke saath. System area, load aur safai se chuna jata hai.",
+      "photo": "stock/forklift-indoor.jpg"
+    },
+    {
+      "kind": "cta",
+      "title": "Apne floor ka *sahi system* chuno",
+      "photo": "stock/glossy-warehouse-1.jpg"
+    }
+  ]
+}

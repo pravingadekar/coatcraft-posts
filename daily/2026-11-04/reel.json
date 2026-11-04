@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind":"hook","title":"Epoxy ya PU: *kaunsa* floor?","chips":["Factory ke liye kya sahi?","Dono mein farak kya?"],"body":"Seedha comparison.","photo":"stock/power-trowel-worker.jpg"},
+    {"kind":"list","tag":"INDUSTRIAL EPOXY","title":"Heavy *kaam* ke liye","items":["Thickness: 2mm se 5mm","Install: 2-5 din","Life: 8-10 saal tak*"],"note":"*sahi maintenance ke saath","photo":"stock/factory-marked-floor.jpg"},
+    {"kind":"list","tag":"PU FLOORING","title":"Hygiene aur *thermal shock*","items":["Thickness: 3mm se 6mm","Install: 3-6 din","Life: 10-12 saal tak*"],"note":"*sahi maintenance ke saath","photo":"stock/food-factory.jpg"},
+    {"kind":"text","tag":"KAISE CHUNEIN","title":"Kaam ke hisaab se *chuno*","body":"Epoxy: abrasion aur chemical resistance. PU: steam cleaning aur thermal shock.","photo":"stock/glossy-corridor.jpg"},
+    {"kind":"cta","title":"Apne floor ka *sahi system* chuno","photo":"stock/parking-ramp.jpg"}
+  ],
+  "narration": [
+    "इपॉक्सी या पीयू फ़्लोरिंग, कौनसा फ़्लोर लगवाएँ? चलिए दोनों का सीधा कम्पेरिज़न देखते हैं।",
+    "इंडस्ट्रियल इपॉक्सी दो से पाँच मिलीमीटर मोटी, दो से पाँच दिन में तैयार, और सही मेंटेनेंस के साथ आठ से दस साल तक चलती है।",
+    "पीयू फ़्लोरिंग तीन से छह मिलीमीटर मोटी, तीन से छह दिन में तैयार, और सही मेंटेनेंस के साथ दस से बारह साल तक चलती है।",
+    "इपॉक्सी में अब्रेशन और केमिकल रेज़िस्टेंस मिलता है। पीयू स्टीम क्लीनिंग और थर्मल शॉक के लिए सही है।",
+    "अपने फ़्लोर का सही सिस्टम जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}
