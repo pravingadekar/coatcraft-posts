@@ -1,0 +1,22 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Epoxy floor *slippery* hota hai?",
+     "chips": ["Geele floor ka dar?", "Ramp par phisalna?"],
+     "body": "Myth vs fact: swipe karo, sach jaano.",
+     "photo": "stock/yellow-glossy-floor.jpg"},
+    {"kind": "text", "tag": "MYTH VS FACT", "title": "Har epoxy *phisalta* nahi",
+     "body": "Smooth glossy finish geela hone par phisal sakta hai. Par anti-slip system se grip milti hai. Sahi finish chuna zaroori hai.",
+     "photo": "stock/glossy-corridor.jpg"},
+    {"kind": "list", "tag": "ANTI-SLIP OPTIONS", "title": "Grip ke liye *sahi system*",
+     "items": ["Granule Epoxy: high slip resistance", "Flakes Epoxy: slip resistance", "Car Parking Flooring: line marking"],
+     "photo": "stock/flakes-texture.jpg"},
+    {"kind": "list", "tag": "KAHAN KAUNSA", "title": "Jagah ke hisaab se *finish*",
+     "items": ["Ramps, walkways: Granule Epoxy", "Garage, washroom: Flakes Epoxy", "Car park: Parking Flooring"],
+     "photo": "stock/parking-ramp.jpg"},
+    {"kind": "text", "tag": "SAFAI TIP", "title": "Safai se *grip* bani rahe",
+     "body": "Routine mopping karein aur tel ya spill turant saaf karein. Kam ghisne wale cleaners chunein.",
+     "photo": "stock/roller-floor-bw.jpg"},
+    {"kind": "cta", "title": "Anti-slip floor ka *quote* jaano",
+     "photo": "stock/garage-glossy.jpg"}
+  ]
+}

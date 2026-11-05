@@ -6,3 +6,4 @@
 2026-11-02 | Mon Service spotlight | Industrial Epoxy | area: Chhatrapati Sambhajinagar
 2026-11-03 | Tue Industry solution | warehouse | area: Mumbai / Thane / Navi Mumbai
 2026-11-04 | Wed Comparison | Epoxy vs PU Flooring | area: Raigad
+2026-11-05 | Thu Myth vs fact | Epoxy floor slippery hota hai? | area: Satara / Kolhapur / Sangli
