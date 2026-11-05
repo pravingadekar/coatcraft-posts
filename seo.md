@@ -29,7 +29,7 @@ Hinglish search phrases: "epoxy flooring price", "factory floor coating", "godow
 Pair with the day's area: "epoxy flooring Chakan MIDC", "PU flooring Nashik", "industrial flooring Supa MIDC".
 
 ## Per-network format
-- **YouTube Short title** (<100 chars): `<Keyword> in <Area> | <Hook> | CoatCraft Solutions #shorts`.
+- **YouTube Short title** (95 chars or fewer; YouTube rejects anything over 100): `<Keyword> in <Area> | <Hook> | CoatCraft Solutions #shorts`.
   Description: first 2 lines carry the keyword + area (that is what search reads), then facts, contact,
   "Service areas: <cluster>, Maharashtra | Pan-India", then 3-5 hashtags. `tags`: 10-15 (service, service + area,
   area + "MIDC", "epoxy flooring Maharashtra", "industrial flooring India", "coatcraft solutions").

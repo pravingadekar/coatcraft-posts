@@ -37,6 +37,11 @@ plus a Google Business Profile update once that network is connected.
    Follow `seo.md` for every caption: keyword-led first line, the day's location cluster in a service-area line,
    the YouTube title formula, description and `tags`, and the longer GBP text. The CTA slide/scene and the
    narration stay as they are (no area names in the voiceover).
+   YouTube title length is a HARD limit: YouTube rejects titles over 100 characters with "invalid or empty video
+   title" (this broke the 2026-11-02 and 2026-11-03 Shorts at 109 and 102 chars). Aim for 95 or fewer. Check it with
+   `grep -m1 '^Title:' daily/$D/captions.md | sed 's/^Title: //' | tr -d '\n' | wc -m`. If it prints more than 95,
+   shorten the title before going on: first shorten the hook, then use one area instead of two, and never drop
+   `CoatCraft Solutions #shorts`. Send exactly this checked title as `youtubeData.title` in step 7.
 5. Render and check:
    ```
    python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
@@ -67,7 +72,7 @@ plus a Google Business Profile update once that network is connected.
    | 10:00 | Facebook `REEL` with reel.mp4, Facebook caption |
    | 11:00 | Google Business Profile (`gmb`, `gmbData.type: "publication"`), GBP text, and ALWAYS exactly one image: `media` = the slide1.png URL (Google shows text-only updates only in the Updates tab, so never send a GBP post without it). Only if getBrandSettings shows `gbpData` in the brand's `networksData` (connected 2026-10-30); otherwise skip it |
    | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
-   | 16:00 | YouTube `short` with reel.mp4: title, `tags` from captions.md, `madeForKids: false`, `category: SCIENCE_TECHNOLOGY`, `privacy: public` |
+   | 16:00 | YouTube `short` with reel.mp4: title (the one checked in step 4, 95 characters or fewer), `tags` from captions.md, `madeForKids: false`, `category: SCIENCE_TECHNOLOGY`, `privacy: public` |
    | 18:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
    If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
    If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for Metricool
