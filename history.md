@@ -7,3 +7,4 @@
 2026-11-03 | Tue Industry solution | warehouse | area: Mumbai / Thane / Navi Mumbai
 2026-11-04 | Wed Comparison | Epoxy vs PU Flooring | area: Raigad
 2026-11-05 | Thu Myth vs fact | Epoxy floor slippery hota hai? | area: Satara / Kolhapur / Sangli
+2026-11-06 | Fri Decorative floors | metallic_epoxy | area: Solapur / Baramati
