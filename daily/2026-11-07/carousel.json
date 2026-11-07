@@ -1,0 +1,65 @@
+{
+  "scenes": [
+    {
+      "kind": "hook",
+      "title": "Floor kitne *saal* chalega?",
+      "chips": [
+        "Kitne saal ki life?",
+        "Dobara kab karwana?"
+      ],
+      "body": "Swipe karo: har system ki aam life.",
+      "photo": "stock/factory-marked-floor.jpg"
+    },
+    {
+      "kind": "list",
+      "tag": "LIGHT DUTY",
+      "title": "*3-10 saal* tak",
+      "items": [
+        "Roller Coating: 3-5 saal*",
+        "Flakes Epoxy: 6-8 saal*",
+        "Industrial Epoxy: 8-10 saal*"
+      ],
+      "note": "*sahi maintenance ke saath",
+      "photo": "stock/roller-floor-worker.jpg"
+    },
+    {
+      "kind": "grid",
+      "tag": "8-10 SAAL",
+      "title": "*8-10 saal* wale systems",
+      "items": [
+        "Metallic Epoxy",
+        "3D Epoxy",
+        "ESD Flooring",
+        "Chemical Resistant",
+        "Car Parking Flooring",
+        "Granule Epoxy"
+      ],
+      "note": "*sahi maintenance ke saath",
+      "photo": "stock/cleanroom.jpg"
+    },
+    {
+      "kind": "list",
+      "tag": "LONG LIFE",
+      "title": "*10-20 saal* tak",
+      "items": [
+        "PU Flooring: 10-12 saal*",
+        "PU Concrete: 12-15 saal*",
+        "Densi Polished Concrete: 15-20 saal*"
+      ],
+      "note": "*sahi maintenance ke saath",
+      "photo": "stock/polished-concrete-room.jpg"
+    },
+    {
+      "kind": "text",
+      "tag": "DHYAN DEIN",
+      "title": "Life *maintenance* par depend",
+      "body": "Ye aam range hain. Roz ki safai, spill turant saaf karna aur harsh acid se bachna floor ki life badhata hai.",
+      "photo": "stock/floor-prep-worker.jpg"
+    },
+    {
+      "kind": "cta",
+      "title": "Apne floor ka *system aur quote* jaano",
+      "photo": "stock/warehouse-aisle-people.jpg"
+    }
+  ]
+}
