@@ -10,3 +10,4 @@
 2026-11-06 | Fri Decorative floors | metallic_epoxy | area: Solapur / Baramati
 2026-11-07 | Sat Process & FAQ | Kaunsa floor kitne saal chalega? | area: Nagpur / Vidarbha
 2026-11-08 | Sun Brand day | Kyun chunein CoatCraft? (seamless, strong, har jagah ka system) | area: Jalgaon / Dhule / Jalna
+2026-11-09 | Mon Service spotlight | pu_flooring | area: Pan-India
