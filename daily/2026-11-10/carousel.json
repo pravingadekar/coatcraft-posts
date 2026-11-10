@@ -1,0 +1,8 @@
+{"scenes":[
+{"kind":"hook","title":"Pharma floor par *static* aur chemical?","chips":["Cleanroom standards?","Safai mein dikkat?"],"body":"Swipe karo: pharma ke liye sahi floor system.","photo":"stock/cleanroom.jpg"},
+{"kind":"text","tag":"PROBLEM","title":"Pharma floor ki *chunauti*","body":"ESD-safe, chemical-resistant aur sanitize karne mein aasaan floor chahiye, jo cleanroom standards ke hisaab se ho.","photo":"stock/spray-worker.jpg"},
+{"kind":"list","tag":"OPTION 1","title":"*ESD Flooring*","items":["Static charge safely door karta hai","Seamless aur durable","Thickness: 2mm se 4mm"],"note":"Cleanroom aur electronics area ke liye","photo":"stock/factory-aisle-lines.jpg"},
+{"kind":"list","tag":"OPTION 2","title":"*PU Flooring*","items":["Hygienic, steam-cleanable","Thermal shock resistant","Thickness: 3mm se 6mm"],"photo":"stock/roller-tray-grey.jpg"},
+{"kind":"list","tag":"TIME AUR WARRANTY","title":"Install *time* aur warranty","items":["ESD: 3-5 din, area par","PU Flooring: 3-6 din","Warranty: up to 2 saal*"],"note":"*sahi maintenance ke saath","photo":"stock/power-trowel-worker.jpg"},
+{"kind":"cta","title":"Pharma floor ka *quote* jaano","photo":"stock/marble-white.jpg"}
+]}
