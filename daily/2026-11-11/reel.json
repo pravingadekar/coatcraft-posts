@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "PU Flooring ya *PU Concrete*?", "chips": ["Forklift wala warehouse?", "Food ya cold storage?"], "body": "Dono ka seedha comparison.", "photo": "stock/warehouse-aisle-people.jpg"},
+    {"kind": "list", "tag": "PU FLOORING", "title": "Hygiene aur *steam cleaning*", "items": ["Thickness: 3mm se 6mm", "Install: 3-6 din", "Life: 10-12 saal tak*"], "note": "*sahi maintenance ke saath", "photo": "stock/roller-floor-worker.jpg"},
+    {"kind": "list", "tag": "PU CONCRETE", "title": "Heavy *load* ke liye", "items": ["Thickness: 6mm se 9mm", "Install: 4-7 din", "Life: 12-15 saal tak*"], "note": "*sahi maintenance ke saath", "photo": "stock/forklift-yard.jpg"},
+    {"kind": "list", "tag": "KAUN KAHAN", "title": "Kaam se *system* chuno", "items": ["Food, pharma: PU Flooring", "Forklift warehouse: PU Concrete", "Cold storage: dono options"], "photo": "stock/factory-marked-floor.jpg"},
+    {"kind": "cta", "title": "Apne floor ka *sahi system* chuno", "photo": "stock/parking-glossy-red.jpg"}
+  ],
+  "narration": [
+    "पीयू फ़्लोरिंग या पीयू कंक्रीट? चलिए दोनों का सीधा कम्पैरिज़न देखते हैं।",
+    "पीयू फ़्लोरिंग तीन से छह मिलीमीटर मोटी, तीन से छह दिन में तैयार, और सही मेंटेनेंस के साथ दस से बारह साल तक चलती है। हाइजीन और स्टीम क्लीनिंग के लिए बढ़िया।",
+    "पीयू कंक्रीट छह से नौ मिलीमीटर मोटी, चार से सात दिन में तैयार, और सही मेंटेनेंस के साथ बारह से पंद्रह साल तक चलती है। हेवी लोड के लिए बनी है।",
+    "फ़ूड और फ़ार्मा के लिए पीयू फ़्लोरिंग, फ़ोर्कलिफ़्ट वाले वेयरहाउस के लिए पीयू कंक्रीट, और कोल्ड स्टोरेज के लिए दोनों ऑप्शन हैं।",
+    "अपने फ़्लोर का सही सिस्टम जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

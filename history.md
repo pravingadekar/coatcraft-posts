@@ -12,3 +12,4 @@
 2026-11-08 | Sun Brand day | Kyun chunein CoatCraft? (seamless, strong, har jagah ka system) | area: Jalgaon / Dhule / Jalna
 2026-11-09 | Mon Service spotlight | pu_flooring | area: Pan-India
 2026-11-10 | Tue Industry solution | pharma | area: Pune
+2026-11-11 | Wed Comparison | PU Flooring vs PU Concrete | area: Ahilyanagar

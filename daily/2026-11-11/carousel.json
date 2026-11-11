@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "PU Flooring ya *PU Concrete*?", "chips": ["Forklift wala warehouse?", "Food ya cold storage?"], "body": "Swipe karo: dono ka seedha comparison.", "photo": "stock/warehouse-aisle-people.jpg"},
+    {"kind": "list", "tag": "PU FLOORING", "title": "Hygiene aur *steam cleaning*", "items": ["Thickness: 3mm se 6mm", "Install: 3-6 din", "Life: 10-12 saal tak*"], "note": "*sahi maintenance ke saath", "photo": "stock/roller-floor-worker.jpg"},
+    {"kind": "list", "tag": "PU CONCRETE", "title": "Heavy *load* ke liye", "items": ["Thickness: 6mm se 9mm", "Install: 4-7 din", "Life: 12-15 saal tak*"], "note": "*sahi maintenance ke saath", "photo": "stock/forklift-yard.jpg"},
+    {"kind": "grid", "tag": "SEEDHA FARAK", "title": "Kaun *kahan* behtar", "items": ["PU: steam cleaning safe", "PU: kam brittle", "PU: food, pharma", "PU: hospital, kitchen", "PU Concrete: heavy impact", "PU Concrete: grease resistant", "PU Concrete: forklift warehouse", "PU Concrete: cold storage"], "photo": "stock/factory-marked-floor.jpg"},
+    {"kind": "text", "tag": "DHYAN DEIN", "title": "Choice *load* aur kaam se", "body": "Dono thermal shock handle karte hain, aur dono par up to 2 saal warranty, sahi maintenance ke saath. System area, load aur safai ke hisaab se chuna jata hai.", "photo": "stock/floor-prep-worker.jpg"},
+    {"kind": "cta", "title": "Apne floor ka *sahi system* chuno", "photo": "stock/parking-glossy-red.jpg"}
+  ]
+}
