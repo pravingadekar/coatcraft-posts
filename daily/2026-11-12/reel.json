@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind":"hook","title":"Epoxy *sirf factory* ke liye hai?","chips":["Ghar ke liye?","Showroom ke liye?"],"body":"Myth vs fact.","photo":"stock/showroom-white.jpg"},
+    {"kind":"list","tag":"FACT 1","title":"Factory mein *zaroor*","items":["Warehouse aur plant","Parking floor","2mm to 5mm thickness"],"photo":"stock/glossy-warehouse-2.jpg"},
+    {"kind":"list","tag":"FACT 2","title":"Ghar aur *showroom* mein bhi","items":["Metallic Epoxy","3D Epoxy","Italian Marble Finish"],"photo":"stock/marble-white.jpg"},
+    {"kind":"text","tag":"FACT 3","title":"Seamless, *saaf karna* aasan","body":"Routine mopping kaafi. Life 8-10 saal tak*. *Sahi maintenance ke saath.","photo":"stock/garage-dark-glossy.jpg"},
+    {"kind":"cta","title":"Apne space ka *sahi floor* chunein","photo":"stock/glossy-warehouse-1.jpg"}
+  ],
+  "narration": [
+    "इपॉक्सी फ़्लोर सिर्फ़ फ़ैक्ट्री के लिए है? ये एक मिथ है। चलिए फ़ैक्ट्स देखते हैं।",
+    "फ़ैक्ट्री, वेयरहाउस और पार्किंग के लिए इंडस्ट्रियल इपॉक्सी बनता है, दो से पाँच मिलीमीटर मोटाई में।",
+    "लेकिन घर और शोरूम के लिए भी मेटैलिक इपॉक्सी, थ्री डी इपॉक्सी और इटैलियन मार्बल फ़िनिश मिलते हैं।",
+    "ये फ़्लोर सीमलेस होते हैं, और रेगुलर पोछे से आसानी से साफ़ हो जाते हैं। सही मेंटेनेंस के साथ आठ से दस साल तक चलते हैं।",
+    "अपने स्पेस के लिए सही फ़्लोर जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

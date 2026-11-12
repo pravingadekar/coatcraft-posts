@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind":"hook","title":"Epoxy *sirf factory* ke liye hai?","chips":["Ghar mein lag sakta hai?","Showroom ke liye theek?"],"body":"Swipe karo: myth aur fact.","photo":"stock/yellow-glossy-floor.jpg"},
+    {"kind":"list","tag":"FACT 1","title":"Factory mein *zaroor*, par sirf wahin nahi","items":["Industrial Epoxy: 2-5 din","Warehouse, plant, parking","2mm to 5mm thickness"],"photo":"stock/factory-aisle-lines.jpg"},
+    {"kind":"grid","tag":"FACT 2","title":"Ghar, office aur *showroom* bhi","items":["Homes","Showrooms","Offices","Retail spaces","Hotel lobbies","Garages","Locker rooms","Cafes"],"photo":"stock/showroom-car-reflection.jpg"},
+    {"kind":"list","tag":"FACT 3","title":"Decorative *designs* ke options","items":["Metallic Epoxy: 3-4 din","3D Epoxy: 3-5 din","Italian Marble Finish: 3-4 din"],"photo":"stock/marbled-swirl.jpg"},
+    {"kind":"text","tag":"FACT 4","title":"Seamless aur *saaf karna* aasan","body":"Routine mopping se floor saaf rehta hai. Life 8-10 saal tak*, up to 2 saal warranty*. *Sahi maintenance ke saath.","photo":"stock/garage-glossy.jpg"},
+    {"kind":"cta","title":"Apne space ka *sahi floor* chunein","photo":"stock/glossy-warehouse-1.jpg"}
+  ]
+}

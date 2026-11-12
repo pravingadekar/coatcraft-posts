@@ -13,3 +13,4 @@
 2026-11-09 | Mon Service spotlight | pu_flooring | area: Pan-India
 2026-11-10 | Tue Industry solution | pharma | area: Pune
 2026-11-11 | Wed Comparison | PU Flooring vs PU Concrete | area: Ahilyanagar
+2026-11-12 | Thu Myth vs fact | Epoxy sirf factory ke liye hai? | area: Nashik
