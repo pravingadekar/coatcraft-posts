@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Floor par *warranty* kitni?", "chips": ["Epoxy par kitni?", "PU par kitni?"], "body": "System ke hisaab se warranty.", "photo": "stock/spray-worker.jpg"},
+    {"kind": "list", "tag": "UP TO 2 SAAL", "title": "*2 saal* tak warranty", "items": ["Industrial Epoxy", "PU Flooring", "PU Concrete"], "note": "*sahi maintenance ke saath", "photo": "stock/forklift-indoor.jpg"},
+    {"kind": "list", "tag": "UP TO 2 SAAL", "title": "Ye bhi *2 saal* wale", "items": ["Metallic Epoxy", "ESD Flooring", "Chemical Resistant"], "note": "*sahi maintenance ke saath", "photo": "stock/cleanroom-corridor.jpg"},
+    {"kind": "list", "tag": "UP TO 1 SAAL", "title": "*1 saal* tak warranty", "items": ["Roller Coating", "Flakes Epoxy", "Densi Polished Concrete"], "note": "*sahi maintenance ke saath", "photo": "stock/power-trowel-worker.jpg"},
+    {"kind": "cta", "title": "Apne floor ki *warranty* jaano", "photo": "stock/parking-shiny.jpg"}
+  ],
+  "narration": [
+    "फ़्लोर लगवाना है, पर वारंटी कितनी मिलेगी? चलिए सिस्टम के हिसाब से देखते हैं।",
+    "इंडस्ट्रियल इपॉक्सी, पीयू फ़्लोरिंग और पीयू कंक्रीट पर दो साल तक की वारंटी, सही मेंटेनेंस के साथ।",
+    "मेटैलिक इपॉक्सी, ई एस डी फ़्लोरिंग और केमिकल रेज़िस्टेंट फ़्लोरिंग पर भी दो साल तक की वारंटी।",
+    "रोलर कोटिंग, फ़्लेक्स इपॉक्सी और डेंसी पॉलिश्ड कंक्रीट पर एक साल तक की वारंटी, सही मेंटेनेंस के साथ।",
+    "अपने फ़्लोर की वारंटी जानने के लिए कॉल या व्हाट्सऐप करें, सात सात चार पाँच आठ, आठ नौ एक एक एक। कोटक्राफ़्ट सॉल्यूशंस।"
+  ]
+}

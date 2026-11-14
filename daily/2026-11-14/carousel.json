@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind": "hook", "title": "Floor par *warranty* kitni?", "chips": ["Epoxy par kitni?", "PU par kitni?"], "body": "Swipe karo: system ke hisaab se warranty.", "photo": "stock/spray-worker.jpg"},
+    {"kind": "list", "tag": "UP TO 2 SAAL", "title": "*2 saal* tak warranty", "items": ["Industrial Epoxy", "PU Flooring", "PU Concrete"], "note": "*sahi maintenance ke saath", "photo": "stock/forklift-indoor.jpg"},
+    {"kind": "grid", "tag": "UP TO 2 SAAL", "title": "Ye bhi *2 saal* wale", "items": ["Metallic Epoxy", "3D Epoxy", "Italian Marble", "Digital Paper Epoxy", "ESD Flooring", "Chemical Resistant", "Car Parking", "Epoxy Waterproofing"], "note": "*sahi maintenance ke saath", "photo": "stock/cleanroom-corridor.jpg"},
+    {"kind": "grid", "tag": "UP TO 1 SAAL", "title": "*1 saal* tak warranty", "items": ["Densi Polished Concrete", "Roller Coating", "Flakes Epoxy", "Granule Epoxy", "Wall Coating", "Table Tops"], "note": "*sahi maintenance ke saath", "photo": "stock/power-trowel-worker.jpg"},
+    {"kind": "text", "tag": "DHYAN DEIN", "title": "Repair aur *coving* ka kya?", "body": "Floor Repair par repaired area ki up to 1 saal warranty. Coving par wahi warranty jo uske floor system par hai. Sab warranty sahi maintenance ke saath.", "photo": "stock/apply-selfleveling-workers.jpg"},
+    {"kind": "cta", "title": "Apne floor ki *warranty* jaano", "photo": "stock/parking-shiny.jpg"}
+  ]
+}
