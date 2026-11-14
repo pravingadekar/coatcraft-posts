@@ -5,7 +5,7 @@ On a date listed below, the routine makes one extra greeting image (`daily/$D/fe
 Google Business Profile (`publication` with the wish text). Lunar dates are from Drik Panchang (Pune), checked 2026-10-30.
 
 Card: `tag` = festival name in caps (+ year), `title` = the greeting with 1-2 words in `*stars*`,
-`body` = a one-line Hinglish wish that ties in strength / new beginnings / a strong foundation (floors), never
+`body` = a one-line Hindi (Devanagari) wish that ties in strength / new beginnings / a strong foundation (floors), never
 a sales pitch, discount or offer. `photo`: a bright, clean `stock/` or `photos/` image (glossy floor, showroom).
 Caption: the wish, one soft line about CoatCraft, the contact block, festival + brand hashtags. No service-area line.
 

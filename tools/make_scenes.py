@@ -23,7 +23,7 @@ import json
 import os
 import sys
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, features
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tts  # noqa: E402
@@ -41,8 +41,18 @@ MUTED = (178, 192, 214)
 CHIP = (27, 54, 94)
 
 
+RAQM = features.check("raqm")
+
+
 def font(weight, size):
-    return ImageFont.truetype(os.path.join(FONTS, f"Poppins-{weight}.ttf"), size)
+    # Poppins carries Devanagari glyphs, but the matras and conjuncts only join with the raqm layout engine
+    # (Pillow + libfribidi). Without it Hindi text comes out broken, so main() refuses to render Hindi then.
+    engine = ImageFont.Layout.RAQM if RAQM else ImageFont.Layout.BASIC
+    return ImageFont.truetype(os.path.join(FONTS, f"Poppins-{weight}.ttf"), size, layout_engine=engine)
+
+
+def has_devanagari(obj):
+    return any("ऀ" <= ch <= "ॿ" for ch in json.dumps(obj, ensure_ascii=False))
 
 
 def wrap(draw, text, fnt, width):
@@ -301,6 +311,9 @@ def main():
         sys.exit("spec still has TODO placeholders")
     if narration and len(narration) != len(scenes):
         sys.exit(f"narration has {len(narration)} lines for {len(scenes)} scenes")
+    if has_devanagari(scenes) and not RAQM:
+        sys.exit("Hindi slide text needs Pillow's raqm layout engine, which is not available here. "
+                 "On Linux install libfribidi0 (sudo apt-get install -y libfribidi0) and run again.")
     os.makedirs(out, exist_ok=True)
 
     if "--single" in sys.argv:

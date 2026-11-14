@@ -2,7 +2,10 @@
 
 Brand: **CoatCraft Solutions**: epoxy, PU and decorative flooring, Pune, Pan-India service.
 Audience: factory, warehouse and facility owners/managers, architects, and home/showroom owners.
-Language: Hinglish (Roman script) on slides and captions; Devanagari for the voiceover.
+Language (user, 14 Nov 2026): **Hindi in Devanagari** on slides, reel scenes, voiceover and the Instagram, Facebook
+and YouTube captions. **Only the Google Business Profile text stays in English.** Keep brand and contact details as they
+are (CoatCraft Solutions, +91 77458 89111, www.coatcraftsolutions.com), hashtags in Roman script, and common trade
+words people search for may stay in English inside the Hindi line (Epoxy Flooring, PU, MIDC).
 Every day: 1 carousel (6 slides) + 1 reel (5 scenes, male voice) to Instagram, Facebook and YouTube Shorts,
 plus a Google Business Profile update once that network is connected.
 
@@ -24,7 +27,12 @@ plus a Google Business Profile update once that network is connected.
      last 3 days of `daily/` when others fit. Stock photos are illustrative only: never describe them as our
      site, client or result.
    - Titles under ~40 characters; mark 1-3 key words with `*stars*` (orange). List items under ~35 characters.
-     Slide text: plain ASCII only, no emoji and no arrows (Poppins has no glyphs for them).
+     Slide text: Hindi in Devanagari (e.g. `"title": "फ़र्श में *दरार*?"`, chips `["धूल", "तेल के दाग"]`, tags like
+     `"2 साल तक"`). Digits and units may stay as numerals (2mm-3mm, 8-15 साल). No emoji and no arrows (Poppins has
+     no glyphs for them). Hindi needs Pillow's raqm engine: before rendering run
+     `python3 -c "from PIL import features; print(features.check('raqm'))"`; if it prints False, run
+     `sudo apt-get install -y libfribidi0` (or without sudo) and check again. If it is still False, write that day's
+     slide/scene text in Hinglish (Roman) as a fallback, keep the captions in Hindi, and say so in the final message.
    - Narration: Devanagari, conversational, 1-2 short sentences per scene (~15-30 words), English trade words
      transliterated (इपॉक्सी, पीयू फ़्लोरिंग, वेयरहाउस), every number spelled as words (दो से पाँच दिन). Same facts as
      the scenes, nothing extra. The last line asks them to call/WhatsApp and says the number exactly as
@@ -34,6 +42,12 @@ plus a Google Business Profile update once that network is connected.
    (plain text under 1,400 characters, no hashtags). Every caption: hook, the key facts, a comment question
    (not on YouTube/GBP), and the contact block: "Call / WhatsApp: +91 77458 89111", "www.coatcraftsolutions.com",
    "Pune | Pan-India service". 6-14 relevant hashtags on Instagram, ~5 on Facebook and YouTube.
+   Language: Instagram, Facebook and YouTube (title and description) in Hindi Devanagari, simple everyday Hindi, with
+   the search keyword and area names allowed in English (YouTube title like
+   `Epoxy Flooring in Chakan MIDC | फ़र्श में दरार क्यों? | CoatCraft Solutions #shorts`). YouTube `Tags:` stay in
+   English (that is what people type). The contact block stays as written above. The Google Business Profile text
+   stays in plain English, as before. Festival captions follow the same split (Hindi for Instagram/Facebook,
+   English for GBP).
    Follow `seo.md` for every caption: keyword-led first line, the day's location cluster in a service-area line,
    the YouTube title formula, description and `tags`, and the longer GBP text. The CTA slide/scene and the
    narration stay as they are (no area names in the voiceover).
