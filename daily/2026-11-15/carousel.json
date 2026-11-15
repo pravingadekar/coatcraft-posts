@@ -1,0 +1,7 @@
+{"scenes":[
+{"kind":"hook","title":"कौन सा *फ़्लोर* चाहिए?","chips":["फ़ैक्टरी","शोरूम"],"body":"CoatCraft की सभी फ़्लोरिंग सर्विस, एक नज़र में। स्वाइप करें।","photo":"stock/glossy-warehouse-2.jpg"},
+{"kind":"list","tag":"इंडस्ट्रियल","title":"फ़ैक्टरी और *वेयरहाउस*","items":["Industrial Epoxy","PU Flooring","PU Concrete"],"photo":"stock/forklift-indoor.jpg"},
+{"kind":"list","tag":"स्पेशल","title":"खास ज़रूरत, *खास* सिस्टम","items":["ESD Flooring","Chemical Resistant","Car Parking"],"photo":"stock/cleanroom-corridor.jpg"},
+{"kind":"grid","tag":"डेकोरेटिव","title":"घर और *शोरूम* के लिए","items":["Metallic Epoxy","3D Epoxy","Italian Marble Finish","Digital Paper Epoxy","Flakes Epoxy","Granule Epoxy","Table Tops","Densi Polished"],"photo":"stock/showroom-car-reflection.jpg"},
+{"kind":"list","tag":"रिपेयर","title":"मरम्मत और *सुरक्षा*","items":["Floor Repair","Epoxy Waterproofing","Wall Coating"],"photo":"stock/floor-prep-worker.jpg"},
+{"kind":"cta","title":"अपने फ़्लोर का *कोटेशन* लें","photo":"stock/parking-shiny.jpg"}]}
