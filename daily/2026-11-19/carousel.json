@@ -1,0 +1,7 @@
+{"scenes":[
+{"kind":"hook","title":"फ़्लोर की *सफ़ाई* कैसे करें?","chips":["झाड़ू और पोछा","स्टीम क्लीनिंग"],"body":"हर फ़्लोर सिस्टम की सफ़ाई अलग होती है। स्वाइप करें।","photo":"stock/roller-floor-worker.jpg"},
+{"kind":"list","tag":"रोज़ की सफ़ाई","title":"झाड़ू और *पोछा*","items":["Industrial Epoxy: कड़े एसिड से बचें","Roller Coating: झाड़ू और पोछा","Car Parking: झाड़ू, लाइन री-मार्किंग"],"photo":"stock/factory-aisle-lines.jpg"},
+{"kind":"list","tag":"धुलाई वाले फ़्लोर","title":"स्टीम और *वॉशडाउन*","items":["PU Flooring: स्टीम क्लीनिंग सेफ़","PU Concrete: रेगुलर वॉशडाउन","Chemical Resistant: स्पिल तुरंत साफ़"],"photo":"stock/food-plant.jpg"},
+{"kind":"list","tag":"डेकोरेटिव और पॉलिश्ड","title":"चमक रखें *बरकरार*","items":["Metallic, 3D, Marble: रेगुलर पोछा","इन पर कड़े क्लीनर न चलाएँ","Densi Polished: कभी-कभी री-पॉलिश"],"photo":"stock/garage-dark-glossy.jpg"},
+{"kind":"text","tag":"ESD फ़्लोर","title":"सफ़ाई के साथ *टेस्टिंग*","body":"ESD Flooring में रेगुलर सफ़ाई के साथ समय-समय पर कंडक्टिविटी टेस्ट भी कराएँ।","photo":"stock/cleanroom.jpg"},
+{"kind":"cta","title":"फ़्लोर की *सही देखभाल* जानें","photo":"stock/glossy-warehouse-1.jpg"}]}
