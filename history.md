@@ -18,3 +18,4 @@
 2026-11-14 | Sat Process & FAQ | Warranty kis system par kitni? | area: Mumbai / Thane / Navi Mumbai
 2026-11-15 | Sun Brand day | Hamari services ek nazar mein (services overview) | area: Raigad
 2026-11-19 | Thu Myth vs fact | Floor ki safai kaise karein (system ke hisaab se) | area: Satara / Kolhapur / Sangli
+2026-11-20 | Fri Decorative floors | italian_marble_finish | area: Solapur / Baramati
