@@ -47,7 +47,7 @@ Pune | Pan-India service
 #epoxyflooring #industrialflooring #factoryfloorcoating #nagpur #coatcraftsolutions
 
 ## YouTube Short
-Title: Epoxy Flooring in Nagpur | फ़्लोर से पहले 4 सवाल | CoatCraft Solutions #shorts
+Title: Epoxy Flooring in Nagpur | 4 सवाल | CoatCraft Solutions #shorts
 
 Description:
 Epoxy flooring in Nagpur और Vidarbha: फ़ैक्टरी या वेयरहाउस का फ़्लोर लगवाने से पहले ये 4 सवाल पूछें। Butibori MIDC, Hingna MIDC, Amravati और Akola में सर्विस।
