@@ -1,0 +1,8 @@
+{"scenes":[
+{"kind":"hook","title":"फ़्लोर लगवाने से पहले *4 सवाल*","chips":["सही सिस्टम कौन सा?","बाद में पछतावा न हो"],"body":"ये चार बातें तय करें, फिर सिस्टम चुनें। स्वाइप करें।","photo":"stock/apply-selfleveling-workers.jpg"},
+{"kind":"text","tag":"सवाल 1","title":"कितना *एरिया* है?","body":"एरिया और जगह की हालत बताएँ। इसी से सिस्टम और काम का समय तय होता है।","photo":"stock/factory-marked-floor.jpg"},
+{"kind":"list","tag":"सवाल 2","title":"ट्रैफ़िक और *वज़न* कितना?","items":["फ़ोर्कलिफ़्ट: PU Concrete","भारी मशीनें: Industrial Epoxy","हल्का ट्रैफ़िक: Roller Coating"],"photo":"stock/forklift-yard.jpg"},
+{"kind":"list","tag":"सवाल 3","title":"*केमिकल* या स्पिल होगा?","items":["एसिड, क्षार: Chemical Resistant","ग्रीस, ठंडा: PU Concrete","आम केमिकल: Industrial Epoxy"],"photo":"stock/food-factory.jpg"},
+{"kind":"list","tag":"सवाल 4","title":"सफ़ाई *कैसे* करेंगे?","items":["स्टीम क्लीनिंग: PU Flooring","झाड़ू और पोछा: Epoxy","कड़े एसिड से बचें"],"photo":"stock/roller-tray-closeup.jpg"},
+{"kind":"cta","title":"अपने फ़्लोर का *सही सिस्टम* जानें","photo":"stock/parking-glossy-red.jpg"}
+]}
