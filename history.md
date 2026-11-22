@@ -20,3 +20,4 @@
 2026-11-19 | Thu Myth vs fact | Floor ki safai kaise karein (system ke hisaab se) | area: Satara / Kolhapur / Sangli
 2026-11-20 | Fri Decorative floors | italian_marble_finish | area: Solapur / Baramati
 2026-11-21 | Sat Process & FAQ | Floor lagwane se pehle 4 sawaal | area: Nagpur / Vidarbha
+2026-11-22 | Sun Brand day | Kaun sa floor kis jagah? (jagah ke hisaab se system, fresh angle) | area: Jalgaon / Dhule / Jalna
