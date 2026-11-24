@@ -51,7 +51,7 @@ Pune | Pan-India service
 #puflooring #foodindustryflooring #industrialflooring #chakanmidc #coatcraftsolutions
 
 ## YouTube Short
-Title: PU Flooring for Food Plant in Chakan MIDC | हाइजीनिक फ़र्श | CoatCraft Solutions #shorts
+Title: PU Flooring Chakan MIDC | हाइजीनिक फ़र्श | CoatCraft Solutions #shorts
 
 Description:
 PU flooring और food plant flooring Chakan MIDC और Pune के फ़ूड प्रोसेसिंग यूनिट्स के लिए।
