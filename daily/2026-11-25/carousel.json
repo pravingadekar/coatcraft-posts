@@ -1,0 +1,7 @@
+{"scenes":[
+{"kind":"hook","title":"Roller Coating या *Industrial Epoxy*?","chips":["हल्का इस्तेमाल","भारी इस्तेमाल"],"body":"कौन सा कहाँ सही है? स्वाइप करें।","photo":"stock/roller-floor-worker.jpg"},
+{"kind":"list","tag":"Roller Coating","title":"*Roller Coating* के फ़ैक्ट्स","items":["मोटाई 150-300 microns","इंस्टॉल 1-2 दिन","लाइफ़: 3-5 साल तक*"],"note":"*सही मेंटेनेंस के साथ","photo":"stock/roller-tray-grey.jpg"},
+{"kind":"list","tag":"Industrial Epoxy","title":"*Industrial Epoxy* के फ़ैक्ट्स","items":["मोटाई 2mm-5mm","इंस्टॉल 2-5 दिन","लाइफ़: 8-10 साल तक*"],"note":"*सही मेंटेनेंस के साथ","photo":"stock/factory-aisle-lines.jpg"},
+{"kind":"text","tag":"Roller Coating कहाँ","title":"हल्के *ट्रैफ़िक* की जगह","body":"किफ़ायती और जल्दी लगने वाला ऑप्शन: हल्के ट्रैफ़िक वाले वेयरहाउस, स्टोरेज एरिया और बैक-ऑफ़-हाउस।","photo":"stock/roller-floor-bw.jpg"},
+{"kind":"text","tag":"Industrial Epoxy कहाँ","title":"भारी *इस्तेमाल* की जगह","body":"फ़ैक्ट्री, वेयरहाउस और मैन्युफ़ैक्चरिंग यूनिट: जहाँ घिसाई, चोट और केमिकल का सामना है।","photo":"stock/floor-prep-worker.jpg"},
+{"kind":"cta","title":"अपने *फ़्लोर* का सही सिस्टम पूछें","photo":"stock/garage-glossy.jpg"}]}

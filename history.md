@@ -23,3 +23,4 @@
 2026-11-22 | Sun Brand day | Kaun sa floor kis jagah? (jagah ke hisaab se system, fresh angle) | area: Jalgaon / Dhule / Jalna
 2026-11-23 | Mon Service spotlight | pu_concrete | area: Pan-India
 2026-11-24 | Tue Industry solution | food_industry | area: Pune
+2026-11-25 | Wed Comparison | Roller Coating vs Industrial Epoxy | area: Ahilyanagar
