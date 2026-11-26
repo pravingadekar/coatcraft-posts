@@ -49,7 +49,7 @@ Pune | Pan-India service
 #epoxyflooring #industrialflooring #chemicalresistantflooring #nashikmidc #coatcraftsolutions
 
 ## YouTube Short
-Title: Epoxy Flooring Nashik MIDC | फ़र्श जल्दी खराब? | CoatCraft Solutions #shorts
+Title: Epoxy Flooring Nashik | फ़र्श जल्दी खराब? | CoatCraft Solutions #shorts
 
 Description:
 Epoxy flooring in Nashik, Ambad aur Satpur MIDC: फ़ैक्ट्री और वेयरहाउस का फ़र्श जल्दी खराब क्यों होता है? तीन आम वजहें: भारी लोड, केमिकल और गलत सिस्टम।
