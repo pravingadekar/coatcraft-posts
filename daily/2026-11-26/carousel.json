@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {"kind":"hook","title":"फ़र्श *जल्दी* खराब क्यों होता है?","chips":["दरारें और घिसाव","तेल और केमिकल के दाग"],"body":"स्वाइप करें: तीन आम वजहें।","photo":"stock/apply-selfleveling-workers.jpg"},
+    {"kind":"list","tag":"वजह 1","title":"भारी *लोड*","items":["फ़ोर्कलिफ़्ट: PU Concrete 6-9mm","मशीन और रैक: Industrial Epoxy","हल्की कोटिंग: सिर्फ़ हल्के काम"],"photo":"stock/power-trowel-worker.jpg"},
+    {"kind":"list","tag":"वजह 2","title":"*केमिकल* और तेल","items":["एसिड, क्षार और सॉल्वेंट","Chemical Resistant फ़्लोरिंग","छलका केमिकल तुरंत साफ़ करें"],"photo":"stock/spray-worker.jpg"},
+    {"kind":"list","tag":"वजह 3","title":"*गलत सिस्टम* का चुनाव","items":["फ़ूड और फ़ार्मा: PU Flooring","वेयरहाउस: PU Concrete या Epoxy","इलेक्ट्रॉनिक्स: ESD Flooring"],"photo":"stock/cleanroom-corridor.jpg"},
+    {"kind":"text","tag":"पहले क्या करें","title":"दरार दिखे तो *रिपेयर*","body":"कई बार पूरा फ़र्श बदलना नहीं पड़ता। Floor Repair 1-3 दिन में, मरम्मत वाले हिस्से पर up to 1 साल वारंटी*। *नुकसान के हिसाब से।","photo":"stock/floor-mortar-worker.jpg"},
+    {"kind":"cta","title":"अपने फ़्लोर का *सही सिस्टम* जानें","photo":"stock/glossy-corridor.jpg"}
+  ]
+}
