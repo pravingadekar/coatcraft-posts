@@ -1,5 +1,16 @@
 # Daily post routine (for the cloud agent)
 
+YOUTUBE POLICY GUARD (user, 27 Nov 2026, all brands; full rules in C:/Users/pravi/.claude/YT_POLICY.md when on this laptop). Apply these FIRST, while choosing the topic and writing the script, before any image, clip, voice or credit is made; then check them again on the finished video before posting:
+1. Not mass-produced: own new idea + script each time; the same hook text/layout never 3 uploads in a row; never re-upload or near-duplicate (a new cut needs 1/3+ new material, new title + thumbnail).
+2. Own material only: no others' clips, music, voices, characters, lyrics or text; summaries in our own words with our own examples.
+3. AI flags always on (youtube isAiGeneratedContent, instagram isAiGenerated, "AI generated" line); no realistic fake of a real person, place or event.
+4. No fake engagement: never a reward/freebie/access/contest for subscribe, follow, like or share; no sub4sub, bots or bought views.
+5. Title + thumbnail match the video; no false claims, no other brands as bait, max 15 tags.
+6. No profit/income/health promises; finance keeps the disclaimer.
+7. Max 2 public YouTube uploads per channel per day.
+8. Any YouTube warning, strike, limited ads, demonetization or YPP rejection: stop this channel's posts and tell the user.
+Channel rule: CoatCraft: stock photos only as illustration, never as our work; vary the daily reel template; facts only from brand/facts.json.
+
 Brand: **CoatCraft Solutions**: epoxy, PU and decorative flooring, Pune, Pan-India service.
 Audience: factory, warehouse and facility owners/managers, architects, and home/showroom owners.
 Language (user, 14 Nov 2026): **Hindi in Devanagari** on slides, reel scenes, voiceover and the Instagram, Facebook
