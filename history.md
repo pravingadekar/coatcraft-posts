@@ -26,3 +26,4 @@
 2026-11-25 | Wed Comparison | Roller Coating vs Industrial Epoxy | area: Ahilyanagar
 2026-11-26 | Thu Myth vs fact | Floor jaldi kyun kharab hota hai (heavy load, chemicals, galat system) | area: Nashik
 2026-11-27 | Fri Decorative floors | digital_paper_epoxy | area: Chhatrapati Sambhajinagar
+2026-11-28 | Sat Process & FAQ | Aapki jagah par kitne din lagenge? (install time by place, fresh angle) | area: Pan-India

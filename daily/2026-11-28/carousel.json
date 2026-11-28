@@ -1,0 +1,7 @@
+{"scenes":[
+{"kind":"hook","title":"आपकी जगह पर *कितने दिन* लगेंगे?","chips":["फ़ैक्ट्री और वेयरहाउस","शोरूम और घर"],"body":"जगह के हिसाब से इंस्टॉल का समय। स्वाइप करें।","photo":"stock/power-trowel-worker.jpg"},
+{"kind":"list","tag":"फ़ैक्ट्री और वेयरहाउस","title":"भारी *इस्तेमाल* की जगह","items":["Industrial Epoxy: 2-5 दिन","PU Concrete: 4-7 दिन","Roller Coating: 1-2 दिन"],"photo":"stock/warehouse-aisle-people.jpg"},
+{"kind":"list","tag":"फ़ूड, फ़ार्मा, इलेक्ट्रॉनिक्स","title":"*हाइजीन* और सुरक्षा","items":["PU Flooring: 3-6 दिन","ESD Flooring: 3-5 दिन","Chemical Resistant: 3-6 दिन"],"photo":"stock/cleanroom-corridor.jpg"},
+{"kind":"list","tag":"शोरूम, ऑफ़िस, घर","title":"*डेकोरेटिव* फ़्लोर","items":["Metallic Epoxy: 3-4 दिन","Italian Marble Finish: 3-4 दिन","3D Epoxy: 3-5 दिन"],"photo":"stock/showroom-car-reflection.jpg"},
+{"kind":"text","tag":"पार्किंग और रिपेयर","title":"पार्किंग और *रिपेयर*","body":"Car Parking Flooring 2-4 दिन। Floor Repair 1-3 दिन, नुकसान के हिसाब से। असली समय एरिया और सिस्टम पर निर्भर।","photo":"stock/parking-glossy-red.jpg"},
+{"kind":"cta","title":"अपनी जगह का *समय और कोटेशन* जानें","photo":"stock/glossy-warehouse-2.jpg"}]}
